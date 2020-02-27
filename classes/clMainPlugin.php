@@ -16,7 +16,7 @@ class clMainPlugin {
     public function registerScriptAssets() {
         wp_enqueue_script(
             'jQuery3',
-            plugins_url( 'woostock/assets/modules/jQuery/jquery-3.4.1.min.js' ), 
+            plugins_url( 'YAWPS/assets/modules/jQuery/jquery-3.4.1.min.js' ), 
             array(), 
             "3.4"
         );
