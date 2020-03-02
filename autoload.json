@@ -1,0 +1,21 @@
+{
+  "namespaces": [
+    {
+      "clases": "classes",
+      "inc": "inc"
+    }
+  ],
+  "globals": "clRegistry",
+  "autoload": [
+    {
+      "class": "clMain",
+      "namespace": "classes",
+      "store": true
+    },
+    {
+      "class": "clCRUDBase",
+      "namespace": "inc",
+      "store": false
+    }
+  ]
+}
